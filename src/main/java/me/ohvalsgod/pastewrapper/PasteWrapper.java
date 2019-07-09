@@ -169,4 +169,12 @@ public class PasteWrapper {
         return previous_pastes.get(paste);
     }
 
+    /**
+     * Get assigned PasteWrapper defaults.
+     *
+     * @return paste defaults
+     */
+    public PasteDefaults getDefaults() {
+        return defaults;
+    }
 }
